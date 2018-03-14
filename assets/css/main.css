@@ -28,7 +28,7 @@
 
 	ol, ul {
 		list-style: none;
-	}
+		}
 
 	blockquote, q {
 		quotes: none;
@@ -55,6 +55,8 @@
 		-webkit-box-sizing: border-box;
 		box-sizing: border-box;
 	}
+
+
 
 /* Containers */
 
@@ -2104,17 +2106,17 @@
 		}
 
 	ul {
-		list-style: disc;
-		margin: 0 0 2em 0;
-		padding-left: 1em;
+		list-style: none;
+		margin: 0 0 1.5em 0;
+		padding-left: 0.5em;
 	}
 
 		ul li {
-			padding-left: 0.5em;
+			padding-left: 0;
 		}
 
 		ul.alt {
-			list-style: none;
+			list-style: circle;
 			padding-left: 0;
 		}
 
@@ -3124,4 +3126,8 @@
 				padding-left: 0;
 			}
 
+	}
+	/* Utils */
+	.hidden {
+		display: none;
 	}
