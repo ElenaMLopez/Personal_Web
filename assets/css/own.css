@@ -5,11 +5,12 @@
   justify-content: space-between;
 }
 
-.languaje_button {
-    background: none;
+.languaje_link{
     border: none;
+    display: block;
     cursor: pointer;
     position: fixed;
+    text-decoration: none;
     right: 10px;
     top: 10px;
 }
