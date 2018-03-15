@@ -4,3 +4,12 @@
   display: flex;
   justify-content: space-between;
 }
+
+.languaje_button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    position: fixed;
+    right: 10px;
+    top: 10px;
+}
