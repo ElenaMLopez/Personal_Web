@@ -2486,7 +2486,7 @@
 		background-image: url("images/overlay.png"), url("../../images/bg.jpeg");
 		background-position: top left,							top left;
 		background-repeat: repeat,								no-repeat;
-		background-size: auto,								auto 100%;
+		background-size: auto, cover;
 		color: rgba(255, 255, 255, 0.6);
 		height: 100%;
 		left: 0;
@@ -2547,7 +2547,7 @@
 		color: rgba(255, 255, 255, 0.4);
 		font-size: 0.8em;
 		list-style: none;
-		margin: 1em 0 0 0;
+		margin: 1.5em 0 0 0;
 		padding: 0;
 	}
 
