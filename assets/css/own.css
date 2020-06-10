@@ -4,3 +4,8 @@
   display: flex;
   justify-content: space-between;
 }
+
+
+.info_secondary-container > ul {
+  width: 33%;
+}
